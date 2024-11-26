@@ -147,6 +147,7 @@ body {
 }
 
 #i88iz {
+    font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -1744,3 +1745,49 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  /* Default styles for navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #d8d2c2;
+  }
+  
+  #navbar-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .burger-menu {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    #navbar-links {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      background-color: #f9f9f9;
+      padding: 10px;
+      position: absolute;
+      top: 50px;
+      right: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  
+    #navbar-links.active {
+      display: flex;
+    }
+  
+    .burger-menu {
+      display: block;
+    }
+  }
+  
