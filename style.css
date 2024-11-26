@@ -64,10 +64,6 @@ body {
     padding: 10px 0;
 }
 
-#iqjl {
-    flex: 0 1 auto;
-}
-
 .gjs-link {
     vertical-align: top;
     max-width: 100%;
@@ -77,107 +73,16 @@ body {
     transition: color 0.3s ease 0s;
 }
 
-#id7x {
-    flex: 0 1 auto;
-    display: block;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#iyd2 {
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    background-color: #d8d2c2;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    backdrop-filter: blur(13px);
-    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.14);
-    border-top-color: rgba(0, 0, 0, 0.3);
-    border-right-color: rgba(0, 0, 0, 0.3);
-    border-bottom-color: rgba(0, 0, 0, 0.3);
-    border-left-color: rgba(0, 0, 0, 0.3);
-    border-top-style: solid;
-    border-right-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-}
-
-#i6po {
-    justify-content: center;
-    position: sticky;
-    top: 15px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #d8d2c2;
-    z-index: 9;
-}
-
-#itjq {
-    width: 100%;
-    max-width: 1200px;
-    background-color: #d8d2c2;
-}
-
-#icfyb {
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: rgba(255, 255, 255, 1);
-    border-top-style: solid;
-    border-right-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-top-width: 4px;
-    border-right-width: 4px;
-    border-bottom-width: 4px;
-    border-left-width: 4px;
-    font-weight: 600;
-    background-color: rgba(0, 0, 0, 1);
-}
-
-#i88iz {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: rgba(255, 255, 255, 1);
-    font-weight: 600;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    background-color: rgba(0, 0, 0, 1);
-}
-
 #irz7b {
     justify-content: center;
     padding-top: 80px;
-    padding-bottom: 370px;
+    padding-bottom: 433px;
     padding-left: 66px;
     padding-right: 20px;
-    background-image: url("assets/63fed29e_2ff6_4f10_9889_3243fd6a5942.png");
-    background-position: 0px -397px;
+    background-image: url("https://www.ilmaserramenti.it/images/com_droppics/20/full/infissi-legno-alluminio-eterna-alzante-1.jpg");
+    background-position: 0px 0px;
     background-size: 1565px 1565px;
-    background-repeat: no-repeat;
+    background-repeat: round;
     background-attachment: scroll;
     background-origin: padding-box;
     mix-blend-mode: normal;
@@ -186,31 +91,8 @@ body {
     min-height: 10px;
     margin-top: 0px;
     margin-right: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-left: 0px;
-}
-
-#iycz3 {
-    max-width: 1200px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-top: 104px;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-}
-
-#itndw {
-    padding: 10px;
-    max-width: 750px;
-    margin-bottom: 25px;
-    text-align: center;
-    font-size: 2rem;
-    font-family: Times New Roman, Times, serif;
-    color: rgba(255, 255, 255, 1);
 }
 
 .text-content {
@@ -231,7 +113,7 @@ body {
     background-attachment: unset;
     background-origin: unset;
     color: #475569;
-    background-color: #d8d2c2;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .gjs-grid-column.feature-item {
@@ -360,33 +242,6 @@ body {
     border-bottom-left-radius: 10px;
 }
 
-#infmy1 {
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: rgba(255, 255, 255, 1);
-    font-weight: 600;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    background-color: rgba(0, 0, 0, 1);
-}
-
-#ie1vsv {
-    color: black;
-    width: 131px;
-}
-
 .gjs-container {
     width: 90%;
     margin: 0 auto;
@@ -410,7 +265,7 @@ body {
     padding-right: 0px;
     padding-bottom: 349px;
     padding-left: 0px;
-    background-color: #D8D2C2;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 #iayplw {
@@ -450,19 +305,32 @@ body {
 #ixhqww {
     text-align: center;
     font-size: 20px;
-    background-color: #d8d2c2;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-top-width: 5px;
-    border-right-width: 5px;
-    border-bottom-width: 5px;
-    border-left-width: 5px;
+    background-color: rgba(0, 0, 0, 1);
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-bottom-width: 6px;
+    border-left-width: 6px;
     margin-bottom: 15px;
     font-family: Verdana, Geneva, sans-serif;
     background-clip: border-box;
     text-decoration: none;
+    border-top-color: rgba(0, 0, 0, 1);
+    border-right-color: rgba(0, 0, 0, 1);
+    border-bottom-color: rgba(0, 0, 0, 1);
+    border-left-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
+    padding-top: 1px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 4px;
 }
 
 #ihz44h {
@@ -579,33 +447,20 @@ body {
 }
 
 #ij8c4t {
-    background-color: #D8D2C2;
-}
-
-#iqbgt2 {
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: rgba(255, 255, 255, 1);
-    font-weight: 600;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 #ifkor4 {
-    background-color: #D8D2C2;
+    background-color: rgba(255, 255, 255, 1);
+    background-clip: border-box;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-width: 50px;
+    border-right-width: 50px;
+    border-bottom-width: 50px;
+    border-left-width: 50px;
 }
 
 #itvybj {
@@ -932,24 +787,12 @@ body {
     border-bottom-left-radius: 13px;
 }
 
-#i9b81j {
-    color: black;
-    width: 224px;
-    height: 72px;
-    filter: invert(0%);
-    background-color: rgba(255, 255, 255, 1);
-    border-top-left-radius: 23px;
-    border-top-right-radius: 23px;
-    border-bottom-right-radius: 23px;
-    border-bottom-left-radius: 23px;
-}
-
 #ikdroz {
-    background-color: #D8D2C2;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 #ilnzsp {
-    background-color: #D8D2C2;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 #iih8xj {
@@ -962,6 +805,10 @@ body {
     border-top-right-radius: 23px;
     border-bottom-right-radius: 23px;
     border-bottom-left-radius: 23px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
 #i22nfg {
@@ -1068,27 +915,37 @@ body {
     justify-content: space-between;
     padding-top: 0px;
     padding-bottom: 0px;
-    background-color: #d8d2c2;
+    background-color: rgba(255, 255, 255, 1);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     backdrop-filter: blur(13px);
     box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.14);
-    border-top-color: rgba(0, 0, 0, 0.3);
-    border-right-color: rgba(0, 0, 0, 0.3);
-    border-bottom-color: rgba(0, 0, 0, 0.3);
-    border-left-color: rgba(0, 0, 0, 0.3);
+    border-top-color: rgba(255, 255, 255, 0.3);
+    border-right-color: rgba(255, 255, 255, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+    border-left-color: rgba(255, 255, 255, 0.3);
     border-top-style: solid;
     border-right-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 #i5mdxf {
     width: 100%;
     max-width: 1200px;
-    background-color: #d8d2c2;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
 #iwxwkq {
@@ -1099,7 +956,7 @@ body {
     padding-bottom: 0px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #d8d2c2;
+    background-color: rgba(255, 255, 255, 1);
     z-index: 9;
 }
 
@@ -1219,7 +1076,7 @@ body {
     justify-content: space-between;
     padding-top: 0px;
     padding-bottom: 0px;
-    background-color: #d8d2c2;
+    background-color: rgba(255, 255, 255, 1);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -1239,7 +1096,7 @@ body {
 #ijiyjv {
     width: 100%;
     max-width: 1200px;
-    background-color: #d8d2c2;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 #igwask {
@@ -1250,12 +1107,12 @@ body {
     padding-bottom: 0px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #d8d2c2;
+    background-color: rgba(255, 255, 255, 1);
     z-index: 9;
 }
 
 #i4275f {
-    background-color: #ceabab;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 #i7qomt {
@@ -1288,10 +1145,10 @@ body {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
-    border-top-width: 4px;
-    border-right-width: 4px;
-    border-bottom-width: 4px;
-    border-left-width: 4px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
     font-weight: 600;
     background-color: rgba(0, 0, 0, 1);
 }
@@ -1307,10 +1164,10 @@ body {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
     border-top-style: solid;
     border-right-style: solid;
     border-bottom-style: solid;
@@ -1319,7 +1176,6 @@ body {
 }
 
 #ivj8ba {
-    font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -1338,6 +1194,7 @@ body {
     border-bottom-style: solid;
     border-left-style: solid;
     background-color: rgba(0, 0, 0, 1);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #imx80i {
@@ -1374,7 +1231,7 @@ body {
     justify-content: space-between;
     padding-top: 0px;
     padding-bottom: 0px;
-    background-color: #ceabab;
+    background-color: rgba(255, 255, 255, 1);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -1394,7 +1251,7 @@ body {
 #i9ik1m {
     width: 100%;
     max-width: 1200px;
-    background-color: #ceabab;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 #ipn941 {
@@ -1405,7 +1262,7 @@ body {
     padding-bottom: 0px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #ceabab;
+    background-color: rgba(255, 255, 255, 1);
     z-index: 9;
 }
 
@@ -1629,6 +1486,199 @@ body {
     font-weight: 300;
 }
 
+#isr5m8 {
+    color: black;
+    width: 224px;
+    height: 72px;
+    filter: invert(0%);
+    background-color: rgba(255, 255, 255, 1);
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    border-bottom-left-radius: 23px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+#idohoo {
+    flex: 0 1 auto;
+}
+
+#i2rxml {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(255, 255, 255, 1);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 1);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+}
+
+#i5pkeq {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#iqdbl8 {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-color: rgba(0, 0, 0, 1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ijqttx {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#iuv2qw {
+    flex: 0 1 auto;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#i329hh {
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgba(255, 255, 255, 1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    backdrop-filter: blur(13px);
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.14);
+    border-top-color: rgba(255, 255, 255, 0.3);
+    border-right-color: rgba(255, 255, 255, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+    border-left-color: rgba(255, 255, 255, 0.3);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#i4ksqg {
+    width: 100%;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+#i11dnf {
+    justify-content: center;
+    position: sticky;
+    top: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 9;
+}
+
+#i7cjpx {
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+#ijtkpa {
+    position: sticky;
+    padding-top: 10px;
+    padding-right: 134px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+#ixmeph {
+    flex-basis: 1%;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
 @keyframes fadeEffect {
     from {
         opacity: 0;
@@ -1648,10 +1698,6 @@ body {
         flex-direction: column;
     }
 
-    #iyd2 {
-        flex-direction: row;
-    }
-
     #i5ary2 {
         flex-direction: row;
     }
@@ -1663,6 +1709,10 @@ body {
     #iygtsj {
         flex-direction: row;
     }
+
+    #i329hh {
+        flex-direction: row;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1671,13 +1721,6 @@ body {
         padding-right: 0px;
         padding-bottom: 0px;
         padding-left: 0px;
-    }
-
-    #id7x {
-        padding-top: 5px;
-        padding-right: 0px;
-        padding-bottom: 5px;
-        padding-left: 10px;
     }
 
     #ikh7pu {
@@ -1700,6 +1743,13 @@ body {
     }
 
     #iqk5kh {
+        padding-top: 5px;
+        padding-right: 0px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+    }
+
+    #iuv2qw {
         padding-top: 5px;
         padding-right: 0px;
         padding-bottom: 5px;
