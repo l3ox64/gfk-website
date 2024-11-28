@@ -79,20 +79,29 @@ body {
     padding-bottom: 433px;
     padding-left: 66px;
     padding-right: 20px;
-    background-image: url("https://www.ilmaserramenti.it/images/com_droppics/20/full/infissi-legno-alluminio-eterna-alzante-1.jpg");
-    background-position: 0px 0px;
-    background-size: 1565px 1565px;
-    background-repeat: round;
+    background-image: url(./assets/backgroundindex.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: scroll;
     background-origin: padding-box;
     mix-blend-mode: normal;
     background-color: rgba(0, 0, 0, 1);
     backface-visibility: visible;
     min-height: 10px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #irz7b {
+        padding-top: 40px;
+        padding-bottom: 200px;
+        padding-left: 0;
+        padding-right: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
 
 .text-content {
@@ -298,8 +307,17 @@ body {
     width: 474px;
 }
 
+@media (max-width: 768px) {
+    #ilqwjr {
+        color: black;
+        height: auto;
+        width: 100%;
+    }
+}
+
 #ifp6yj {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 #ixhqww {
@@ -334,8 +352,20 @@ body {
 }
 
 #ihz44h {
+    margin-top: 20px;
     padding: 10px;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    #ihz44h {
+        margin-top: 10px;
+        padding: 5px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5;
+        word-wrap: break-word;
+    }
 }
 
 #ibgmbr {
@@ -344,10 +374,18 @@ body {
 }
 
 .tab {
-    padding: 7px 14px;
+    padding: 15px 20px;
     display: inline-block;
-    border-radius: 3px;
+    border-radius: 8px;
     margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: none;
 }
 
 .tab:focus {
@@ -606,6 +644,17 @@ body {
     text-align: start;
 }
 
+@media (max-width: 768px) {
+    #iahdlt {
+        margin-top: 20px;
+        position: relative;
+        font-family: Poppins, sans-serif;
+        font-size: 14px;
+        text-align: start;
+        word-wrap: break-word;
+    }
+}
+
 #ib6hdq {
     margin: 0px 0px 1em;
 }
@@ -636,6 +685,17 @@ body {
     font-family: Poppins, sans-serif;
     font-size: 16px;
     text-align: start;
+}
+
+@media (max-width: 768px) {
+    #iadl5a {
+        margin-top: 60px;
+        position: relative;
+        font-family: Poppins, sans-serif;
+        font-size: 14px;
+        text-align: start;
+        word-wrap: break-word;
+    }
 }
 
 #ikoqtl {
@@ -670,6 +730,17 @@ body {
     text-align: start;
 }
 
+@media (max-width: 768px) {
+    #iothmx {
+        margin-top: 60px;
+        position: relative;
+        font-family: Poppins, sans-serif;
+        font-size: 14px;
+        text-align: start;
+        word-wrap: break-word;
+    }
+}
+
 #i6qhjq {
     margin: 0px 0px 1em;
 }
@@ -700,6 +771,17 @@ body {
     font-family: Poppins, sans-serif;
     font-size: 16px;
     text-align: start;
+}
+
+@media (max-width: 768px) {
+    #i8x86g {
+        margin-top: 50px;
+        position: relative;
+        font-family: Poppins, sans-serif;
+        font-size: 14px;
+        text-align: start;
+        word-wrap: break-word;
+    }
 }
 
 #icftxa {
@@ -1724,8 +1806,11 @@ body {
     }
 
     #ikh7pu {
-        width: 502px;
-        height: 334px;
+        background-size: contain;
+        background-position: center center;
+        height: auto;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
     #i772wi {
