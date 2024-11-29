@@ -1885,15 +1885,16 @@ body {
     align-items: center;
     padding: 10px 20px;
     background-color: #d8d2c2;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(254, 254, 254, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
+    border-bottom: 2px solid #ffffff;
   }
   
   #navbar-links {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     list-style: none;
   }
   
@@ -1901,11 +1902,16 @@ body {
     text-decoration: none;
     color: #fcfcfc;
     font-size: 16px;
+    font-weight: 500;
+    padding: 14px 18px;
+    border-radius: 15px;
     transition: color 0.3s ease;
   }
   
   #navbar-links a:hover {
-    color: #007bff;
+    color: #ffffff;
+    background-color: #007bff;
+    transform: translateY(-2px);
   }
   
   .burger-menu {
