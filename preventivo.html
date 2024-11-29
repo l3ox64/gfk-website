@@ -22,14 +22,14 @@
               <div class="dropdown">
                 <a href="#" class="gjs-link" id="i5pkeq">Prodotti</a>
                 <div class="dropdown-content">
-                  <a href="./prodotti/opzione_1.html">Opzione 1</a>
-                  <a href="./prodotti/opzione_2.html">Opzione 2</a>
-                  <a href="./prodotti/opzione_3.html">Opzione 3</a>
-                  <a href="./prodotti/opzione_4.html">Opzione 4</a>
-                  <a href="./prodotti/opzione_5.html">Opzione 5</a>
-                  <a href="./prodotti/opzione_6.html">Opzione 6</a>
-                  <a href="./prodotti/opzione_7.html">Opzione 7</a>
-                  <a href="./prodotti/opzione_8.html">Opzione 8</a>
+                  <a href="./prodotti/opzione_1.html">Serramenti PVC</a>
+                  <a href="./prodotti/opzione_2.html">Serramenti in Legno</a>
+                  <a href="./prodotti/opzione_3.html">Serramenti Alluminio</a>
+                  <a href="./prodotti/opzione_4.html">Avvolgibili</a>
+                  <a href="./prodotti/opzione_5.html">Porte Interne</a>
+                  <a href="./prodotti/opzione_6.html">Porte Blindate</a>
+                  <a href="./prodotti/opzione_7.html">Zanzariere</a>
+                  <a href="./prodotti/opzione_8.html">Persiane</a>
                 </div>
               </div>
               <a id="iqdbl8" href="./chi-siamo.html" class="gjs-link">Chi Siamo</a>
@@ -52,24 +52,65 @@
           <button onclick="showForm('azienda')" class="tab" id="tabAzienda">Azienda</button>
         </div>
         <div id="iu9jx2" class="tab-contents">
+          <!-- Tab contenente il form per Privato -->
           <div role="tabpanel" id="formPrivato" class="tab-content">
-            <form method="get" id="itv1vf">
-              <div id="iql48l"><label id="i4or7g">Nome           </label><input type="text" id="idza4x" /></div>
-              <div id="ik5y4v"><label id="i40l1r">Cognome     </label><input type="text" id="i37oij" /></div>
-              <div id="imu8tg"><label id="i7bff7">Email           </label><input type="email" id="in6cah" /></div>
-              <div id="iffrjg"><label id="iqqdr1">Cellulare      </label><input type="email" id="iaczs7" /></div>
-              <div id="itw9qg"><label id="i945mf">Via               </label><input type="email" id="i9asv2" /></div>
-              <div id="iveg7v"><label id="ibxeug">Residenza    </label><input type="email" id="ieg0q3" /></div>
-              <div id="i3dagr"><button type="button" id="irk87g">Invia<br /></button></div>
+            <form method="get" id="formPrivatoForm">
+              <div class="form-group">
+                <label for="nomePrivato">Nome</label>
+                <input type="text" id="nomePrivato" />
+              </div>
+              <div class="form-group">
+                <label for="cognomePrivato">Cognome</label>
+                <input type="text" id="cognomePrivato" />
+              </div>
+              <div class="form-group">
+                <label for="emailPrivato">Email</label>
+                <input type="email" id="emailPrivato" />
+              </div>
+              <div class="form-group">
+                <label for="cellularePrivato">Cellulare</label>
+                <input type="text" id="cellularePrivato" />
+              </div>
+              <div class="form-group">
+                <label for="viaPrivato">Via</label>
+                <input type="text" id="viaPrivato" />
+              </div>
+              <div class="form-group">
+                <label for="residenzaPrivato">Residenza</label>
+                <input type="text" id="residenzaPrivato" />
+              </div>
+              
+              <button type="button" id="inviaAzienda" style="display: block; margin: 20px auto; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; transition: background-color 0.3s ease;">
+                Invia
+              </button>
+              
             </form>
           </div>
+        
+          <!-- Tab contenente il form per Azienda -->
           <div role="tabpanel" id="formAzienda" class="tab-content">
-            <form method="get" id="itxqbr">
-              <div id="ibyn1d"><label id="ilhtan">Nome Azienda  </label><input type="text" id="izekwt" /></div>
-              <div id="iiv6ku"><label id="i1ozfh">P. IVA                </label><input type="text" id="iz3e8a" /></div>
-              <div id="i5kcpl"><label id="icqi0h">Residenza         </label><input type="email" id="iov10w" /></div>
-              <div id="i5w2hc"><label id="i05z0x">Cellulare           </label><input type="email" id="i4rjd8" /></div>
-              <div id="ijp1dm"><button type="button" id="i6hhao">Invia<br /></button></div>
+            <form method="get" id="formAziendaForm">
+              <div class="form-group">
+                <label for="nomeAzienda">Nome Azienda</label>
+                <input type="text" id="nomeAzienda" />
+              </div>
+              <div class="form-group">
+                <label for="pivaAzienda">P. IVA</label>
+                <input type="text" id="pivaAzienda" />
+              </div>
+              <div class="form-group">
+                <label for="residenzaAzienda">Residenza</label>
+                <input type="text" id="residenzaAzienda" />
+              </div>
+              <div class="form-group">
+                <label for="cellulareAzienda">Cellulare</label>
+                <input type="text" id="cellulareAzienda" />
+              </div>
+              
+              <button type="button" id="inviaAzienda" style="display: block; margin: 20px auto; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; transition: background-color 0.3s ease;">
+                Invia
+              </button>
+              
             </form>
           </div>
         </div>
